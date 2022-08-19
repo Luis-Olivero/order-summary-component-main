@@ -42,11 +42,12 @@ footer {
 }
 
 .container {
-    width: 100%;
+    max-width: 21.25rem;
     margin: 0 auto;
     padding-top: 2.5em;
     padding-inline: 1rem;
 }
+
 
 .row {
     display: flex;
@@ -104,6 +105,7 @@ footer {
 
 .card__middle--change {
     color: var(--Bright-blue);
+    text-decoration: none;
 }
 
 .card__middle--change:hover {
